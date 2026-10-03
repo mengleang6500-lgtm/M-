@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>M-Mart</title>
+
+    <link rel="icon" type="image/png" href="logo-web.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Boxicons -->
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="nav container">
+
+        <a href="#" class="logo">
+            M-Mart
+        </a>
+
+        <div class="cart-icon-container">
+
+            <i class="bx bx-shopping-bag" id="cart-icon"></i>
+
+            <span id="cart-count">0</span>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= SHOP ================= -->
+
+<section class="shop container">
+
+    <h2 class="section-title">
+        Shop Products
+    </h2>
+
+
+    <!-- SEARCH & CATEGORIES -->
+
+    <div class="shop-tools">
+
+        <div class="search-box">
+
+            <i class="bx bx-search"></i>
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search products..."
+            >
+
+        </div>
+
+
+        <div class="categories">
+
+            <button
+                class="category-btn active"
+                data-category="all">
+                All
+            </button>
+
+            <button
+                class="category-btn"
+                data-category="drinks">
+                Drinks
+            </button>
+
+            <button
+                class="category-btn"
+                data-category="snacks">
+                Snacks
+            </button>
+
+            <button
+                class="category-btn"
+                data-category="fruits">
+                Fruits
+            </button>
+
+            <button
+                class="category-btn"
+                data-category="food">
+                Food
+            </button>
+
+            <button
+                class="category-btn"
+                data-category="personal">
+                Personal Care
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <div class="shop-content">
+
+
+        <!-- 1. Milk -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/So Natural Milk.jpg"
+                alt="Milk"
+                class="product-img">
+
+            <h2 class="product-title">
+                Milk
+            </h2>
+
+            <span class="price">
+                $2.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 2. Vina Milk -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Vina Milk.jpg"
+                alt="Vina Milk"
+                class="product-img">
+
+            <h2 class="product-title">
+                Vina Milk
+            </h2>
+
+            <span class="price">
+                $2.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 3. The True Milk -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/The True Milk.png"
+                alt="The True Milk"
+                class="product-img">
+
+            <h2 class="product-title">
+                The True Milk
+            </h2>
+
+            <span class="price">
+                $2.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 4. Tea -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Tea.jpg"
+                alt="Tea"
+                class="product-img">
+
+            <h2 class="product-title">
+                Tea
+            </h2>
+
+            <span class="price">
+                $2.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 5. Coca Cola -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Coca.jpg"
+                alt="Coca Cola"
+                class="product-img">
+
+            <h2 class="product-title">
+                Coca Cola
+            </h2>
+
+            <span class="price">
+                $1.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 6. Red Sting -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Red Sting.jpg"
+                alt="Red Sting"
+                class="product-img">
+
+            <h2 class="product-title">
+                Red Sting
+            </h2>
+
+            <span class="price">
+                $1.25
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 7. Yellow Sting -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Yellow Sting.jpg"
+                alt="Yellow Sting"
+                class="product-img">
+
+            <h2 class="product-title">
+                Yellow Sting
+            </h2>
+
+            <span class="price">
+                $1.25
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 8. Sprite -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Sprite.jpg"
+                alt="Sprite"
+                class="product-img">
+
+            <h2 class="product-title">
+                Sprite
+            </h2>
+
+            <span class="price">
+                $1.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 9. Water -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Water.avif"
+                alt="Water"
+                class="product-img">
+
+            <h2 class="product-title">
+                Water
+            </h2>
+
+            <span class="price">
+                $1.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 10. Bia Saigon -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Bia Saigon.jpg"
+                alt="Bia Saigon"
+                class="product-img">
+
+            <h2 class="product-title">
+                Bia Saigon
+            </h2>
+
+            <span class="price">
+                $2.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 11. Bia Hanoi -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Bia Hanoi.jpg"
+                alt="Bia Hanoi"
+                class="product-img">
+
+            <h2 class="product-title">
+                Bia Hanoi
+            </h2>
+
+            <span class="price">
+                $2.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 12. Pepsi -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Pepsi.jpg"
+                alt="Pepsi"
+                class="product-img">
+
+            <h2 class="product-title">
+                Pepsi
+            </h2>
+
+            <span class="price">
+                $1.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 13. Sting Energy Drink -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/Sting Energy Drink.jpg"
+                alt="Sting Energy Drink"
+                class="product-img">
+
+            <h2 class="product-title">
+                Sting Energy Drink
+            </h2>
+
+            <span class="price">
+                $1.25
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 14. Singha Beer -->
+
+        <div class="product-box" data-category="drinks">
+
+            <img
+                src="img/SINGHA BIA.jpg"
+                alt="Singha Beer"
+                class="product-img">
+
+            <h2 class="product-title">
+                Singha Beer
+            </h2>
+
+            <span class="price">
+                $2.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 15. Popcorn -->
+
+        <div class="product-box" data-category="snacks">
+
+            <img
+                src="img/Popcorn.jpg"
+                alt="Popcorn"
+                class="product-img">
+
+            <h2 class="product-title">
+                Popcorn
+            </h2>
+
+            <span class="price">
+                $2.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 16. Potato Chips -->
+
+        <div class="product-box" data-category="snacks">
+
+            <img
+                src="img/Potato Chip.jpg"
+                alt="Potato Chips"
+                class="product-img">
+
+            <h2 class="product-title">
+                Potato Chips
+            </h2>
+
+            <span class="price">
+                $2.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 17. Pringles -->
+
+        <div class="product-box" data-category="snacks">
+
+            <img
+                src="img/Pringles.jpg"
+                alt="Pringles"
+                class="product-img">
+
+            <h2 class="product-title">
+                Pringles
+            </h2>
+
+            <span class="price">
+                $3.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 18. Apple -->
+
+        <div class="product-box" data-category="fruits">
+
+            <img
+                src="img/Apple.jpg"
+                alt="Apple"
+                class="product-img">
+
+            <h2 class="product-title">
+                Apple
+            </h2>
+
+            <span class="price">
+                $3.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 19. Banana -->
+
+        <div class="product-box" data-category="fruits">
+
+            <img
+                src="img/Bananas.jpg"
+                alt="Banana"
+                class="product-img">
+
+            <h2 class="product-title">
+                Banana
+            </h2>
+
+            <span class="price">
+                $1.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 20. Orange -->
+
+        <div class="product-box" data-category="fruits">
+
+            <img
+                src="img/Oranges.jpg"
+                alt="Orange"
+                class="product-img">
+
+            <h2 class="product-title">
+                Orange
+            </h2>
+
+            <span class="price">
+                $6.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 21. Mango -->
+
+        <div class="product-box" data-category="fruits">
+
+            <img
+                src="img/Mango.jpg"
+                alt="Mango"
+                class="product-img">
+
+            <h2 class="product-title">
+                Mango
+            </h2>
+
+            <span class="price">
+                $1.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 22. Watermelon -->
+
+        <div class="product-box" data-category="fruits">
+
+            <img
+                src="img/Water Melon.jpg"
+                alt="Watermelon"
+                class="product-img">
+
+            <h2 class="product-title">
+                Watermelon
+            </h2>
+
+            <span class="price">
+                $5.55
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 23. Pineapple -->
+
+        <div class="product-box" data-category="fruits">
+
+            <img
+                src="img/Pine Apple.jpg"
+                alt="Pineapple"
+                class="product-img">
+
+            <h2 class="product-title">
+                Pineapple
+            </h2>
+
+            <span class="price">
+                $3.30
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 24. Grape -->
+
+        <div class="product-box" data-category="fruits">
+
+            <img
+                src="img/Grape.jpg"
+                alt="Grape"
+                class="product-img">
+
+            <h2 class="product-title">
+                Grape
+            </h2>
+
+            <span class="price">
+                $15.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 25. Strawberry -->
+
+        <div class="product-box" data-category="fruits">
+
+            <img
+                src="img/Strawberry.jpg"
+                alt="Strawberry"
+                class="product-img">
+
+            <h2 class="product-title">
+                Strawberry
+            </h2>
+
+            <span class="price">
+                $25.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 26. Papaya -->
+
+        <div class="product-box" data-category="fruits">
+
+            <img
+                src="img/Papayas.jpg"
+                alt="Papaya"
+                class="product-img">
+
+            <h2 class="product-title">
+                Papaya
+            </h2>
+
+            <span class="price">
+                $1.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 27. Dragon Fruit -->
+
+        <div class="product-box" data-category="fruits">
+
+            <img
+                src="img/Dragon Fruit.jpg"
+                alt="Dragon Fruit"
+                class="product-img">
+
+            <h2 class="product-title">
+                Dragon Fruit
+            </h2>
+
+            <span class="price">
+                $1.80
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 28. Potatoes -->
+
+        <div class="product-box" data-category="food">
+
+            <img
+                src="img/Potatos.jpg"
+                alt="Potatoes"
+                class="product-img">
+
+            <h2 class="product-title">
+                Potatoes
+            </h2>
+
+            <span class="price">
+                $2.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 29. Tomato -->
+
+        <div class="product-box" data-category="food">
+
+            <img
+                src="img/tomato.jpg"
+                alt="Tomato"
+                class="product-img">
+
+            <h2 class="product-title">
+                Tomato
+            </h2>
+
+            <span class="price">
+                $2.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 30. Rice -->
+
+        <div class="product-box" data-category="food">
+
+            <img
+                src="img/rice.jpg"
+                alt="Rice"
+                class="product-img">
+
+            <h2 class="product-title">
+                Rice
+            </h2>
+
+            <span class="price">
+                $5.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 31. Sugar -->
+
+        <div class="product-box" data-category="food">
+
+            <img
+                src="img/sugar.jpg"
+                alt="Sugar"
+                class="product-img">
+
+            <h2 class="product-title">
+                Sugar
+            </h2>
+
+            <span class="price">
+                $2.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 32. Salt -->
+
+        <div class="product-box" data-category="food">
+
+            <img
+                src="img/salt.jpg"
+                alt="Salt"
+                class="product-img">
+
+            <h2 class="product-title">
+                Salt
+            </h2>
+
+            <span class="price">
+                $1.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 33. Shampoo -->
+
+        <div class="product-box" data-category="personal">
+
+            <img
+                src="img/shampoo.jpg"
+                alt="Shampoo"
+                class="product-img">
+
+            <h2 class="product-title">
+                Shampoo
+            </h2>
+
+            <span class="price">
+                $4.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 34. Soap -->
+
+        <div class="product-box" data-category="personal">
+
+            <img
+                src="img/soap..jpg"
+                alt="Soap"
+                class="product-img">
+
+            <h2 class="product-title">
+                Soap
+            </h2>
+
+            <span class="price">
+                $1.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 35. Toothpaste -->
+
+        <div class="product-box" data-category="personal">
+
+            <img
+                src="img/toothpaste4.jpg"
+                alt="Toothpaste"
+                class="product-img">
+
+            <h2 class="product-title">
+                Toothpaste
+            </h2>
+
+            <span class="price">
+                $2.50
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+        <!-- 36. Yogurt -->
+
+        <div class="product-box" data-category="food">
+
+            <img
+                src="img/yogurt.jpg"
+                alt="Yogurt"
+                class="product-img">
+
+            <h2 class="product-title">
+                Yogurt
+            </h2>
+
+            <span class="price">
+                $2.00
+            </span>
+
+            <i class="bx bx-shopping-bag add-cart"></i>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- ================= CART ================= -->
+
+<div class="cart">
+
+    <div class="cart-header">
+
+        <h2>Your Cart</h2>
+
+        <i class="bx bx-x" id="close-cart"></i>
+
+    </div>
+
+
+    <div class="cart-content">
+    </div>
+
+
+    <div class="cart-bottom">
+
+        <div class="total">
+
+            <span>Total</span>
+
+            <span id="total-price">
+                $0.00
+            </span>
+
+        </div>
+
+
+        <button class="checkout-btn">
+            Checkout
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
